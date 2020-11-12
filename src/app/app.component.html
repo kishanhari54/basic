@@ -10,13 +10,13 @@
 <div class="container">
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active" href="#" [routerLink]="['/home']">Home</a>
+            <a class="nav-link active" [routerLink]="['/home']">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" [routerLink]="['/products']">Products</a>
+            <a class="nav-link" [routerLink]="['/products']">Products</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" (click)="navigateBack()">Products(Navigated in Component)</a>
+            <a class="nav-link" (click)="navigateBack()">Products(Navigated in Component)</a>
         </li>
     </ul>
 </div>
